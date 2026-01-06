@@ -1,0 +1,35 @@
+[2b3366e3-efda-4918-991d-cecc4d3133d9]
+Description=Application settings for net.lutris.Lutris
+decocolor=Nobara
+decocolorrule=2
+wmclass=\snet.lutris.Lutris
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=3
+rules=2b3366e3-efda-4918-991d-cecc4d3133d9,e320f527-aaec-4707-96b4-4089ceac6b7b,b430ec28-c5d2-4c4b-88b0-ed13abffb40d
+
+[b430ec28-c5d2-4c4b-88b0-ed13abffb40d]
+Description=New window settings
+opacityactive=90
+opacityactiverule=1
+opacityinactive=69
+opacityinactiverule=1
+types=428
+wmclasscomplete=true
+wmclassmatch=1
+
+[e320f527-aaec-4707-96b4-4089ceac6b7b]
+Description=Window settings for kitty
+decocolor=Nobara
+decocolorrule=2
+opacityactive=90
+opacityactiverule=2
+opacityinactive=75
+opacityinactiverule=2
+title=~
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
