@@ -15,9 +15,9 @@
 
     background_color: "#24273a",
 
-    text_color: "#cad3f5",
+    text_color: "#a5adcb",
 
-    header_background_color: "#1e2030",
+    header_background_color: "#24273a",
 
     modal_background_color: None,
 
@@ -95,7 +95,7 @@
 
         (
 
-            prop: (kind: Property(Album), style: (fg: "#C3E8E1"),
+            prop: (kind: Property(Album), style: (fg: "#8bd5ca"),
 
                 default: (kind: Text("Unknown Album"), style: (fg: "#C3E8E1"))
 
@@ -129,11 +129,11 @@
 
                 left: [
 
-                    (kind: Text("["), style: (fg: "yellow", modifiers: "Bold")),
+                    (kind: Text("["), style: (fg: "green", modifiers: "Bold")),
 
-                    (kind: Property(Status(State)), style: (fg: "yellow", modifiers: "Bold")),
+                    (kind: Property(Status(State)), style: (fg: "blue", modifiers: "Bold")),
 
-                    (kind: Text("]"), style: (fg: "yellow", modifiers: "Bold"))
+                    (kind: Text("]"), style: (fg: "green", modifiers: "Bold"))
 
                 ],
 
@@ -151,7 +151,7 @@
 
                     (kind: Property(Widget(ScanStatus)), style: (fg: "blue")),
 
-                    (kind: Property(Widget(Volume)), style: (fg: "blue"))
+                    (kind: Property(Widget(Volume)), style: (fg: "#c6a0f6"))
 
                 ]
 
@@ -177,9 +177,9 @@
 
                 center: [
 
-                    (kind: Property(Song(Artist)), style: (fg: "yellow", modifiers: "Bold"),
+                    (kind: Property(Song(Artist)), style: (fg: "#c6a0f6", modifiers: "Bold"),
 
-                        default: (kind: Text("Unknown"), style: (fg: "yellow", modifiers: "Bold"))
+                        default: (kind: Text("Unknown"), style: (fg: "#c6a0f6", modifiers: "Bold"))
 
                     ),
 
@@ -254,11 +254,11 @@
      orientation: Bottom,
     bar_color: Gradient({
 
-          0: "rgb(110, 179, 211)",
+          0: "rgb(125, 196, 228)",
 
-         50: "rgb(178, 123, 201)",
+         50: "rgb(198, 160, 246)",
 
-        100: "rgb(201, 123, 185)",
+        100: "rgb(245, 189, 230)",
     })
     )
     ),
